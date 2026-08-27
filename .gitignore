@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Power BI temporary/cache files
+*.tmp
+*.temp
+
+# SQL Server backup files
+*.bak
+
+# Logs
+*.log
+
+# Local SQL Server Docker test files
+mssql/
+
+# Local SQL scratch/test files
+sql/testquery.sql
