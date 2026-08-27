@@ -1,0 +1,11 @@
+CREATE DATABASE BikeStoreDB;
+GO
+
+USE BikeStoreDB;
+GO
+
+CREATE SCHEMA sales;
+GO
+
+CREATE SCHEMA production;
+GO
