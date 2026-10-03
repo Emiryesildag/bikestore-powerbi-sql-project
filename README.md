@@ -187,18 +187,25 @@ Stored procedures are included for validation and analysis:
 
 These procedures are not necessarily the main Power BI model tables. They are mainly used for SQL-side analysis, testing, and demonstration.
 
-## Power BI Plan
+## Power BI Result
 
-Planned report pages:
+Report pages:
 
 1. Executive Summary
+<img width="1307" height="706" alt="image" src="https://github.com/user-attachments/assets/f144a3ff-730b-4a5c-a931-80b855e2088a" />
 2. Sales Performance
+<img width="1305" height="722" alt="image" src="https://github.com/user-attachments/assets/8286c60f-6e0a-45e2-b50c-147b49e49565" />
 3. Product & Brand Analysis
+<img width="1302" height="721" alt="image" src="https://github.com/user-attachments/assets/350458a1-da59-4ee5-ba39-519e5476d115" />
 4. Customer Geography
+<img width="1305" height="727" alt="image" src="https://github.com/user-attachments/assets/1983b446-c23c-4cdf-aebb-d2425c7bfdd4" />
 5. Inventory Monitoring
+<img width="1305" height="637" alt="image" src="https://github.com/user-attachments/assets/064e391d-e8f2-4c81-a417-6298b9cd5872" />
 6. Staff & Store Operations
+<img width="1307" height="696" alt="image" src="https://github.com/user-attachments/assets/602ef71f-2670-432e-99e7-9e55128b7fa5" />
 
-Recommended measures in Power BI:
+
+Measures in Power BI:
 
 ```DAX
 Net Sales = SUM(vw_SalesFact[net_sales])
