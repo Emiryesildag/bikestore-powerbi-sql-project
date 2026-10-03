@@ -211,40 +211,4 @@ Average Discount = AVERAGE(vw_SalesFact[discount])
 Average Shipping Days = AVERAGE(vw_SalesFact[shipping_days])
 ```
 
-## Team Responsibilities
 
-Kaan:
-
-- SQL database setup
-- Schema and relationship design
-- SQL views and stored procedures
-- Import debugging and validation queries
-- Report design planning
-
-Emir:
-
-- Windows SQL Server testing
-- Power BI Desktop implementation
-- Dashboard visuals and formatting
-- Final report testing
-
-Shared:
-
-- Data validation
-- Power BI model checking
-- Presentation and final demo preparation
-
-## Notes for Reviewers or AI Assistants
-
-To understand the project, read the files in this order:
-
-1. `README.md`
-2. `sql/01_create_database.sql`
-3. `sql/02_create_tables.sql`
-4. `sql/03_bulk_insert_data_mac.sql` or `sql/03_bulk_insert_data_win.sql`
-5. `sql/04_add_constraints.sql`
-6. `sql/05_create_views.sql`
-7. `sql/06_create_procedures.sql`
-8. `sql/07_validation_queries.sql`
-
-The most important design decision is that Power BI should use the SQL reporting views as the main data source instead of connecting directly to the raw CSV files.
